@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*::-webkit-scrollbar{
+  display: none;
+}
+.nav{
+  height: 4.5rem;
+  width: 100vw;
+  display: flex;
+  background-color: #221c8df4;
+}
+.logomaincon{
+  filter:invert(84%) sepia(12%) saturate(784%) hue-rotate(196deg) brightness(102%) contrast(91%);
+  width: 50px;
+  margin-left: 10rem;
+  margin-top: 0.6rem;
+  height: 50px;
+}
+.logotxt{
+  margin-top: 13px;
+  margin-left: 10px;
+  font-size: 2.2rem;
+  font-family: "Inter", sans-serif;
+  color:whitesmoke;
+}
+.nav h2{
+  margin-top: 13px;
+  margin-left: 45px;
+  color: rgba(184, 195, 245, 0.919);
+  transition: 0.3s ease;
+  cursor: pointer;
+  
+}
+.signupbtn{
+  color: white;
+  width: 120px;
+  border-radius: 10px;  
+  font-family: "Inter", sans-serif;
+  background-color:rgb(101, 113, 244);
+  height:60px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border: none;
+  font-size: larger;
+}
+.loginbtn{
+  color:white;
+  width: 120px;
+  font-size: larger;
+  margin-left: 100px;
+  margin-top: 5px;
+  border: 0.5px solid rgba(255, 255, 255, 0.747);
+  border-radius: 10px;
+  height:60px;
+  font-family: "Inter", sans-serif;
+  background: transparent;
+  transition:0.3s ease;
+}
+.loginbtn:hover{
+  color: black;
+  background-color:white ;
+  cursor: pointer;
+}
+.signupbtn:hover{
+  background-color:white ;
+  cursor: pointer;
+  color: black;
+  border: 0.5px solid  rgba(255, 255, 255, 0.747);
+}
+.nav h2:hover{
+  color: white;
+}

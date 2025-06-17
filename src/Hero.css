@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.herosection{
+    margin-top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(34, 28, 141, 0.957);
+}
+
+.txt{
+    position: absolute;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 3.7rem;
+    font-weight: bold;
+    top: 10rem;
+    left:10.2rem;
+}
+.herotxt{
+    margin-top: 0rem;
+}
+.herotxt span{
+    color: rgb(101, 113, 244);
+}
+.txt2{
+    position: absolute;
+    color:  white;
+    top:27rem;
+    font-size: 24px;
+    font-family:"Inter", sans-serif ;
+    left: 10.2rem;
+}
+.herobtn{
+    display: flex;
+    position: absolute;
+    top: 36rem;
+    left: 10.2rem;
+    gap: 10px;
+}
+.button1{
+    width: 230px;
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-family:"Inter", sans-serif ;
+    background-color:rgb(101, 113, 244);
+    font-size: 23px;
+    transition: 0.3s ease;
+}
+.button2{
+    width: 150px;
+    color: white;
+    height: 50px;
+    background:transparent;
+    border: 0.3px solid white;
+    border-radius: 5px;
+    font-family:"Inter", sans-serif ;
+    transition: 0.3s ease;
+    font-size: 23px;
+}
+.button1:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.button2:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: none;
+
+}
+.heroimg{
+    position: absolute;
+    top: 10rem;
+    left: 57.5rem;
+    width: 53rem;
+    height: 35rem;
+    border-radius: 5px;
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.loginimg{
+   
+    width: 46rem;
+    height: 38rem;
+    font-family: "Inter", sans-serif;
+}
+.LoginSection{
+    display: flex;
+    width: 80.6vw;
+    height: 98vh;
+    margin-top: 0.5rem;
+    margin-left: 11.2rem;
+    box-shadow:
+  0 2px 4px rgba(0, 0, 0, 0.2),          
+  0 0 12px rgba(74, 94, 229, 0.5),       
+  0 8px 20px rgba(0, 0, 0, 0.3);         
+
+
+}
+.Logo{
+    width: 50px;
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+    height: 50px;
+    filter: invert(32%) sepia(84%) saturate(2535%) hue-rotate(224deg) brightness(93%) contrast(93%);
+}
+.ImgSection{
+    
+    width: 46rem;
+    height: 52.5rem;
+    background-color: #4a5ee5 ;
+    
+}
+.ImgSection p{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-left: 7rem;
+    margin-top: 0rem;
+    font-family: "Inter", sans-serif;
+
+}
+.txtfin{
+    font-size: 2.4rem;
+    position: absolute;
+    top: 3.4rem;
+    left: 17.5rem;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+.FormSection{
+    width: 48rem;
+    height: 94vh;
+    
+    margin-top: 2rem;
+    margin-left: 2rem;
+   
+}
+.txthead{
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 11.5rem;
+    margin-top: 6rem;
+}
+.ImgSection h6{
+    font-family: "Inter", sans-serif;
+    color: rgba(245, 242, 242, 0.711);
+    font-size: medium;
+    margin-left: 2rem;
+    width: 43rem;
+    margin-top: -1rem;
+}
+.googlebtn{
+    cursor: pointer;
+    font-size: large;
+    font-family: "Inter", sans-serif;
+    border: 0.6px solid rgba(162, 164, 162, 0.92);
+    background: transparent; 
+    position: relative;
+    padding: 5px;
+    width: 240px;
+    margin-left: 14.8rem;
+    margin-top: -1rem;
+}
+.google{
+    width: 30px;
+    margin-left: -11rem;
+    height: 30px;
+}
+.googlebtn span{
+    margin-left: 10px;
+    margin-top: 5px;
+    position: absolute;
+    
+}
+.FormSection hr{
+    width: 600px;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    
+}
+.FormSection h6{
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 17rem;
+    margin-top: 1rem;
+    font-family: "Inter", sans-serif;
+}
+.FormSection form input{
+    font-family: "Inter", sans-serif;
+    display: block;
+    font-size: large;
+    margin-left: 9rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 400px;
+    padding: 15px;
+}
+form span{
+    font-size: large;
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    top: 38rem;
+    left: 23.7rem;
+}
+.check{
+    height: 1rem;
+    font-family: "Inter", sans-serif;
+    width: 1rem;
+    position: absolute;
+    top: 37.1rem;
+    left: 1.3rem;
+}
+.pass{
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    top: 37rem;
+    left: 40.8rem;
+}
+.signinbtn2{
+    width: 39rem;
+    height: 3rem;
+    
+}
+form input{
+    cursor: pointer;
+}
+.txthead span{
+    color: #4a5ee5;
+}
+form h4{
+    margin-left: 13.6rem;
+    font-size: large;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+span2{
+    font-weight: bold;
+    cursor: pointer;
+}
+.FormSection h5{
+    color: grey;
+    margin-left: 1rem;
+    margin-top: 3.5rem;
+}
+.FormSection h3{
+    color: grey;
+    font-size: small;
+    margin-left: 39rem;
+    margin-top: -2.5rem;
+}

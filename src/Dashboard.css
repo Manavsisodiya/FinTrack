@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.headingsection {
+    width: 23vw;
+    height: 110vh;
+    background-color: rgba(34, 28, 141, 0.933);
+
+}
+
+.contentsection {
+    width: 77vw;
+    height: 110vh;
+   
+}
+
+.main {
+    display: flex;
+}
+
+.mainlogo {
+    width: 49px;
+    height: 48px;
+    border-radius: 50%;
+    filter: invert(84%) sepia(12%) saturate(784%) hue-rotate(196deg) brightness(102%) contrast(91%);
+}
+
+.logohead {
+    display: flex;
+    gap: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    list-style-type: none;
+}
+
+.logos {
+    display: flex;
+    width: 24rem;
+    gap: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: x-large;
+    color: #b8c3f5;
+    list-style-type: none;
+    transition: 0.5s ease;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    filter: invert(78%) sepia(6%) saturate(2735%) hue-rotate(196deg) brightness(102%) contrast(92%);
+}
+
+.logos:hover {
+    background-color: rgba(78, 90, 186, 0.504);
+    color: white;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.logos:hover .logo {
+    filter: invert(99%) sepia(1%) saturate(2704%) hue-rotate(208deg) brightness(114%) contrast(100%);
+}
+
+.dashboardnav {
+    display: flex;
+    height: 10vh;
+}
+
+.dashboardnav p {
+    color: black;
+    font-size: xx-large;
+    font-weight: 520;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+.dashboardnav h4 {
+    position: absolute;
+    top: 2.3rem;
+    color: grey;
+    left: 29rem;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.notification {
+    border-radius: 50%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 45px;
+    width: 45px;
+    margin-left: 0.3rem;
+    margin-top: 1.4rem;
+}
+
+.searchimg {
+    border-radius: 50%;
+    margin-top: 1.4rem;
+    margin-left: 46rem;
+    height: 45px;
+    width: 45px;
+}
+
+#userdetail {
+    font-size: x-large;
+    margin-left: 0.5rem;
+    margin-top: 0px;
+}
+
+.userinformation {
+    display: flex;
+    padding: 5px 5px;
+    width: 16rem;
+    margin-top: 0.7rem;
+    margin-left: 0.6rem;
+    height: 3rem;
+    border-radius: 90px;
+    border: 0.5px solid rgba(163, 167, 163, 0.867);
+}
+
+.user_img {
+    margin-top: -5.2px;
+    margin-left: -5px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.usertext {
+    padding: 0;
+
+}
+
+.usertext p {
+    color: grey;
+    margin-top: -25px;
+    margin-left: 0.5rem;
+    font-size: medium;
+}
+
+.dashboardnav2 {
+    display: flex;
+    gap: 20px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    height: 25vh;
+}
+
+.totalbalance {
+    border: 2.5px solid rgb(220, 219, 219);
+    border-radius: 35px;
+    width: 21.2rem;
+}
+
+.income {
+    border-radius: 35px;
+    width: 21.2rem;
+    border: 2.5px solid rgb(220, 219, 219);
+}
+
+.expense {
+    border-radius: 35px;
+    width: 21.2rem;
+    border: 2.5px solid rgb(210, 209, 209);
+}
+
+.totalsavings {
+    width: 21.2rem;
+    border-radius: 35px;
+    border: 2.5px solid rgb(210, 209, 209);
+}
+
+.totalbalance p {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-left: 1.4rem;
+    font-family: "Inter", sans-serif;
+}
+
+.income p {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-left: 1.4rem;
+    font-family: "Inter", sans-serif;
+}
+
+.expense p {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-left: 1.4rem;
+    font-family: "Inter", sans-serif;
+}
+
+.totalsavings p {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-left: 1.4rem;
+    font-family: "Inter", sans-serif;
+}
+.dashboardnav3{
+    display: flex;
+    height: 33vh;
+    margin-top: 1rem;
+}
+.moneyflow{
+    width: 61rem;
+    margin-left: 1rem;
+    border: 2.5px solid rgb(210, 209, 209);
+    border-radius: 35px;
+}
+.budget{
+    margin-left: 1rem;
+    border-radius: 35px;
+    border: 2.5px solid rgb(210, 209, 209);
+    width: 27rem;
+}
+.dashboardnav4{
+    display: flex;
+    height: 33vh;
+    margin-top: 1rem;
+}
+.recenttransactions{
+    width: 61rem;
+    margin-left: 1rem;
+    border: 2.5px solid rgb(210, 209, 209);
+    border-radius: 35px;
+}
+.savinggoals{
+    margin-left: 1rem;
+    border-radius: 35px;
+    border: 2.5px solid rgb(210, 209, 209);
+    width: 27rem;
+}
